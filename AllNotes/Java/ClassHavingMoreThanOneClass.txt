@@ -1,0 +1,85 @@
+1). Consider the following program.
+class ClassOne
+{
+     public static void main(String[] args)
+     {
+         ClassTwo.methodOfClassTwo();
+     }
+}
+ 
+class ClassTwo
+{
+     static void methodOfClassTwo()
+     {
+         System.out.println("From Class Two");
+     }
+}
+
+2). Consider the following program.
+public class ClassOne
+{
+     public static void main(String[] args)
+     {
+          ClassTwo.methodOfClassTwo();
+     }
+}
+ 
+class ClassTwo
+{
+     static void methodOfClassTwo()
+     {
+          System.out.println("From Class Two");
+     }
+}
+
+3). Consider the following program.
+class ClassOne
+{
+     public static void main(String[] args)
+     {
+          ClassTwo.methodOfClassTwo();
+     }
+}
+ 
+public class ClassTwo
+{
+     static void methodOfClassTwo()
+     {
+          System.out.println("From Class Two");
+     }
+}
+
+4). Consider the following program.
+public class ClassOne
+{
+     public static void main(String[] args)
+     {
+          ClassTwo.methodOfClassTwo();
+     }
+}
+ 
+public class ClassTwo
+{
+     static void methodOfClassTwo()
+     {
+          System.out.println("From Class Two");
+     }
+}
+
+5)Consider the following program.
+class ClassOne
+{
+     public static void main(String[] args)
+     {
+          System.out.println("From Class One");
+     }
+}
+ 
+class ClassTwo
+{
+     public static void main(String[] args)
+     {
+          System.out.println("From Class Two");
+     }
+}
+

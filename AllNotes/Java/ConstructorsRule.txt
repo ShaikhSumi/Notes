@@ -1,0 +1,8 @@
+1)Name of the constructor must be same as that of a class name. 
+If you give another name it will give compile time error. 
+
+2)Only public, protected and private keywords are allowed before a constructor name.
+
+3)Recursive constructor calling is not allowed.
+
+4)No Cylic calling of constructors.
